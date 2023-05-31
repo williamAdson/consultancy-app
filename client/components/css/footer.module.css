@@ -1,0 +1,31 @@
+.footerContainer{
+    background: linear-gradient(45deg, black, lawngreen);
+    color: #fff;
+    opacity: .7;
+    margin-top: 1rem;
+}
+.linkCard h1{
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    margin: 1rem auto;
+}
+.linkCard li{
+    font-size: .85rem;
+}
+.footCopyrights{
+    font-size: .75rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: auto .5rem;
+    gap: 1rem;
+}
+@media screen and (min-width: 480px) {
+    .footerLinks{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+}

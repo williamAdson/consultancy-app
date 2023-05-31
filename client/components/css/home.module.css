@@ -1,0 +1,19 @@
+.homeHeader{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1.35rem auto;
+}
+.homeContainer h1{
+    font-size: 2.35rem;
+}
+.homeContainer h2{
+    font-size: 1.35rem;  
+}
+@media screen and (min-width: 480px) {
+    .HomeServicesContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}

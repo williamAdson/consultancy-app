@@ -1,0 +1,52 @@
+.navBarContainer{
+    background: linear-gradient(45deg, black, lawngreen);
+    color: #fff;
+    opacity: .7;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoName{
+    font-size: 1rem;
+    color: lawngreen;
+    display: flex;
+}
+.logoName svg{
+    transform: none;
+}
+.navLinks{
+    display: none;
+}
+.navLinks > ul{
+    list-style-type: none;
+    display: flex;
+}
+.navLinks li{
+    background: #fff;
+    color: lawngreen;
+    padding: .2rem 1rem;
+    margin-right: .2rem;
+    border-radius: .2rem;
+}
+.navContacts{
+    display: inline-flex;
+    border: .15rem solid #fff;
+    border-radius: .2rem;
+    margin: .5rem .5rem;
+}
+.navContacts > * {
+    font-size: 1rem;
+}
+.navContactChild{
+    border-right: .15rem solid #fff;
+}
+.selectContainer{
+    border: none;
+    color: lawngreen;
+}
+@media screen and (min-width: 480px) {
+    .navLinks{
+        display: flex;
+    }
+}

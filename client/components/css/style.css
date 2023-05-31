@@ -1,0 +1,38 @@
+html{
+    color-scheme: light dark;
+}
+body{
+    font-size: 1.125rem;
+    font-family: system-ui;
+    line-height: 1.5;
+    margin: 0;
+}
+main{
+    margin-inline: .3rem;
+}
+p{
+    max-width: 70ch;
+}
+img,
+svg,
+video{
+    max-width: 100%;
+    display: block;
+    transition: ease-in 200ms;
+}
+img:hover{
+    transform: scale(.952);
+}
+svg{
+    color: #fff;
+    margin: .25rem 1rem;
+    transition: ease-in 200ms;
+}
+svg:hover{
+    transform: scale(1.1) rotateZ(45deg);
+}
+a{
+    color-scheme: lawngreen;
+    text-decoration: none;
+}
+

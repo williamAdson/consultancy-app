@@ -1,0 +1,61 @@
+.serviceCard{
+    max-width: 300px;
+    box-shadow: .15px .15px 3px lawngreen;
+    border-radius: .5px;
+    margin-bottom: 1rem;
+}
+.serviceCard h1{
+    font-size: 1.35rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1.35rem auto;
+}
+.limitText{
+    font-size: .85rem;
+    max-height: calc(2 * .85rem * 1.4);
+    line-height: 1.4;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    overflow: hidden;
+    transition: ease-in 200ms;
+}
+.limitText:hover{
+    max-height: none;
+}
+.serviceButton{
+    padding: .3rem 1rem;
+    margin: .7rem auto;
+    border: .1rem solid lawngreen;
+    background-color: #fff;
+    color: lawngreen;
+    font-size: .85rem;
+    text-transform: capitalize;
+    border-radius: .3rem;
+    margin-right: 1rem;
+    transition: ease-in 200ms;
+}
+.serviceButton > *{
+    color: lawngreen;
+}
+.serviceButton:hover{
+    background: #000;
+    opacity: .7;
+}
+.serviceButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textList{
+    font-size: .85rem;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+@media screen and (min-width: 480px) {
+    .HomeServicesContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
